@@ -49,7 +49,7 @@ const checkImage = () => {
     if (code) {
         console.log("QRcodeが見つかりました", code);
         drawRect(code.location);
-        document.getElementById('qr-msg').textContent = `QRコード：${code.data}`
+        document.getElementById('qr-msg').textContent = `QRコード: ${code.data}`
     } else {
         console.log("QRcodeが見つかりません...", code);
         rectCtx.clearRect(0, 0, contentWidth, contentHeight);
