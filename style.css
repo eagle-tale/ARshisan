@@ -27,4 +27,6 @@
     position: absolute;
     top: 500px;
     left: 0px;
+    background-color: aliceblue;
+    z-index: 150;
 }
